@@ -5,6 +5,9 @@ their animal stories and get to know people like them who love animals along the
 Link : https://www.youtube.com/watch?v=YJ7lzu6EOxo&t=22s
 
 
+##---The game was developed by Ben Alon---##
+
+
 ![pet empire-pic 1](https://user-images.githubusercontent.com/65303505/121535607-fb53f800-ca0a-11eb-8e4c-cff838298343.PNG)
 
 ![pet empire-pic 2](https://user-images.githubusercontent.com/65303505/121535626-ff801580-ca0a-11eb-82fa-63442acfd8c2.PNG)
