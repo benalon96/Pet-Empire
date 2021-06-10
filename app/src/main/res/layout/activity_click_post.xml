@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_below="@+id/post_toolbar"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ClickPostActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:id="@+id/postc"
+        android:background="@color/mainBackground"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+
+            android:background="#ffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="4dp"
+            >
+            <include
+                android:id="@+id/post_toolbar"
+                layout="@layout/app_bar_layout">
+            </include>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/show_profile"
+                android:background="@color/white"
+                android:padding="5dp"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/post_profile_image"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/profile"
+                    android:scaleType="centerCrop"
+                    android:layout_marginStart="4dp">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/post_user_name_com"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="user name"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginTop="8dp"
+                        android:textAlignment="textStart"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black">
+
+                    </TextView>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginStart="5dp"
+                        android:padding="2dp">
+
+                        <TextView
+                            android:id="@+id/text_com"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="has been updated a post"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="2dp"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            >
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/post_time_com"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Time"
+                            android:layout_marginStart="2dp"
+                            android:textColor="@color/black"
+                            android:textSize="13sp"
+                            >
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/post_date_com"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Date"
+                            android:layout_marginStart="2dp"
+                            android:textColor="@color/black"
+                            android:textSize="13sp"
+                            >
+
+                        </TextView>
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <View style="@style/proifleDetailsView" />
+            <TextView
+
+                android:id="@+id/post_description_com"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Post description....."
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:textColor="@android:color/black">
+
+            </TextView>
+
+            <ImageView
+
+                android:id="@+id/post_image_com"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gender">
+
+            </ImageView>
+
+            <View style="@style/proifleDetailsView" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+
+                <ImageButton
+                    android:id="@+id/like_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="35dp"
+                    android:background="#0000"
+                    android:src="@drawable/heart">
+
+                </ImageButton>
+                <TextView
+                    android:id="@+id/display_number_of_likes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 likes"
+                    android:padding="15dp"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+                <ImageButton
+                    android:id="@+id/comment_button"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="7dp"
+                    android:scaleType="fitXY"
+                    android:background="@color/white"
+                    android:src="@drawable/commentspost"
+                    android:layout_marginStart="35dp"
+                    android:baselineAlignBottom="false"
+                    >
+
+                </ImageButton>
+
+                <TextView
+                    android:id="@+id/display_number_of_comments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:baselineAlignBottom="false"
+                    android:padding="15dp"
+                    android:text="comments"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_below="@id/postc"
+        android:id="@+id/textComments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Comments:"
+        style="@style/viewParent.headerText"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:id="@+id/layout2"
+        android:layout_below="@+id/textComments"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp" />
+    </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/click_edit_post"
+        android:layout_marginTop="70dp"
+        android:text="Edit post"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="@color/RedDark"
+        android:layout_below="@+id/comment_input">
+
+    </Button>
+    <Button
+        android:text="Delete post"
+        android:backgroundTint="@color/RedDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/click_delete_post"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/comment_input">
+
+    </Button>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_below="@+id/layout2"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/comment_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="55dp"
+        android:background="@drawable/inputs"
+        android:hint="write a comment here..."
+        android:inputType="textMultiLine"
+        android:padding="15dp">
+
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/post_comment_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/comment_input"
+        android:layout_alignParentEnd="true"
+        android:padding="15dp"
+        android:src="@drawable/post_comment">
+
+    </ImageButton>
+</RelativeLayout>
+</LinearLayout>
+</ScrollView>

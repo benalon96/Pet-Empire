@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.socialnetwork">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="Pet Empire"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SocialNetwork">
+
+
+        <activity android:name=".MainActivity1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChatActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            android:parentActivityName=".FriendsActivity" />
+        <activity android:name=".FriendsActivity" />
+        <activity
+            android:name=".PersonProfileActivity"
+            android:parentActivityName=".FindFriendsActivity" />
+        <activity
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            android:name=".ResetPasswordActivity"
+            android:parentActivityName=".MainActivity" />
+
+
+        <activity android:name=".MenuSettingsActivity" />
+        <activity
+            android:name=".FindFriendsActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            android:parentActivityName=".MainActivity1" />
+        <activity
+            android:name=".ProfileActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            android:parentActivityName=".MainActivity1" />
+        <activity
+            android:name=".SettingsActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ClickPostActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            android:parentActivityName=".MainActivity1" />
+        <activity
+            android:name=".PostActivity"
+            android:parentActivityName=".MainActivity1" />
+        <activity android:name=".SetupActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <service
+            android:name=".Notifications.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".Notifications.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+    </application>
+
+
+</manifest>

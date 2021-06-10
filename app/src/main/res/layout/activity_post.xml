@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".PostActivity">
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+  <include
+      android:id="@+id/update_post_page_toolbar"
+      layout="@layout/app_bar_layout">
+
+  </include>
+
+    <ImageButton
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/select_post_image"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/select_image"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <EditText
+
+        android:id="@+id/post_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:padding="40dp"
+        android:textSize="18sp"
+        android:background="@drawable/text_update_post_shape"
+        android:hint="write something about image here"
+        android:layout_below="@id/select_post_image"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+
+    <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+        android:id="@+id/update_post_button"
+        style="@style/loginButton"
+        android:layout_below="@id/post_description"
+        android:layout_centerHorizontal="true"
+        app:spinning_bar_width="4dp"
+        app:spinning_bar_color="#FFF"
+        android:text="Update Post"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        app:spinning_bar_padding="6dp"
+        app:initialCornerAngle="27dp"/>
+  </RelativeLayout>
+</ScrollView>
