@@ -19,7 +19,6 @@ Link : https://www.youtube.com/watch?v=YJ7lzu6EOxo&t=22s
 ![pet empire-pic 2](https://user-images.githubusercontent.com/65303505/121535626-ff801580-ca0a-11eb-82fa-63442acfd8c2.PNG)
 
  <br/>
-  <br/>
 ![pet empire-pic 3](https://user-images.githubusercontent.com/65303505/121535838-2d655a00-ca0b-11eb-803f-0659f7ab6d7f.PNG)
 
 
