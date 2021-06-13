@@ -4,6 +4,25 @@ Pet Empire is a social network built on Android Studio and designed for animal l
 their animal stories and get to know people like them who love animals along the way,<br/>
  so what are you waiting for? Everyone is waiting for you there :)
  <br/>
+  <br/>
+ Features
+  <br/>
+   <br/>
+Custom photo feed
+Post photo posts from camera or gallery
+Like posts
+Comment on posts
+View all comments on a post
+Search for users
+Realtime Messaging and Sending images
+Deleting Posts
+Profile Pages
+Change profile picture
+Change username
+Follow / Unfollow Users
+Change image view from grid layout to feed layout
+
+
 
 
 Link : https://www.youtube.com/watch?v=YJ7lzu6EOxo&t=22s
