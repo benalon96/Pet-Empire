@@ -9,19 +9,32 @@ their animal stories and get to know people like them who love animals along the
   <br/>
    <br/>
 -Custom photo feed
+ <br/>
 -Post photo posts from camera or gallery
+ <br/>
 -Like posts
+ <br/>
 -Comment on posts
+ <br/>
 -View all comments on a post
+ <br/>
 -Search for users
+ <br/>
 -Realtime Messaging and Sending images
+ <br/>
 -Deleting Posts
+ <br/>
 -Profile Pages
+ <br/>
 -Change profile picture
+ <br/>
 -Change username
+ <br/>
 -Follow / Unfollow Users
+ <br/>
 -Change image view from grid layout to feed layout
--Chat 
+ <br/>
+  <br/>
 
 
 
