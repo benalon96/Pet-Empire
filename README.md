@@ -6,7 +6,8 @@ With Pet empire, you can meet new people that have the same love for pets as you
  <br/>
 So what are you waiting for? Join us and start sharing your love for pets.
  <br/>
-  <br/>
+  
+  
  # Features #
 :white_check_mark:Custom photo feed
  <br/>
