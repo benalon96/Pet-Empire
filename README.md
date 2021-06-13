@@ -5,7 +5,7 @@ their animal stories and get to know people like them who love animals along the
  so what are you waiting for? Everyone is waiting for you there :)
  <br/>
   <br/>
- Features
+ # Features #
   <br/>
    <br/>
 -Custom photo feed
