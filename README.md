@@ -6,8 +6,6 @@ their animal stories and get to know people like them who love animals along the
  <br/>
   <br/>
  # Features #
-  <br/>
-   <br/>
 -Custom photo feed
  <br/>
 -Post photo posts from camera or gallery
