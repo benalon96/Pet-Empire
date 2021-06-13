@@ -8,29 +8,31 @@ their animal stories and get to know people like them who love animals along the
  # Features #
 :white_check_mark:Custom photo feed
  <br/>
--Post photo posts from camera or gallery
+:white_check_mark:Post photo posts from camera or gallery
  <br/>
--Like posts
+:white_check_mark:Like posts
  <br/>
--Comment on posts
+:white_check_mark:Comment on posts
  <br/>
--View all comments on a post
+:white_check_mark:View all comments on a post
  <br/>
--Search for users
+:white_check_mark:Search for users
  <br/>
--Realtime Messaging and Sending images
+:white_check_mark:Realtime Messaging and Sending images
  <br/>
--Deleting Posts
+:white_check_mark:Deleting Posts
  <br/>
--Profile Pages
+:white_check_mark:Profile Pages
  <br/>
--Change profile picture
+:white_check_mark:Change profile picture
  <br/>
--Change username
+:white_check_mark:Change username
+<br/>
+:white_check_mark:Forgot Password
  <br/>
--Follow / Unfollow Users
+:white_check_mark:Follow / Unfollow Users
  <br/>
--Change image view from grid layout to feed layout
+:white_check_mark:Change image view from grid layout to feed layout
  <br/>
   <br/>
 
