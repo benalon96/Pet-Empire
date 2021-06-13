@@ -1,7 +1,9 @@
 # Pet-Empire
 
 Pet empire is a social network that developed in order to let people share their love for pets through the app.
+ <br/>
 With Pet empire, you can meet new people that have the same love for pets as you do.
+ <br/>
 So what are you waiting for? Join us and start sharing your love for pets.
  <br/>
   <br/>
