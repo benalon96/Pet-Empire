@@ -1,6 +1,6 @@
 # Pet-Empire
 
-Pet Empire is a social network built on Android Studio and designed for animal lovers to share
+Pet Empire is a social network built on Android and designed for animal lovers to share
 their animal stories and get to know people like them who love animals along the way,<br/>
  so what are you waiting for? Everyone is waiting for you there :)
  <br/>
