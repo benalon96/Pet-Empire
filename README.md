@@ -8,19 +8,20 @@ their animal stories and get to know people like them who love animals along the
  Features
   <br/>
    <br/>
-Custom photo feed
-Post photo posts from camera or gallery
-Like posts
-Comment on posts
-View all comments on a post
-Search for users
-Realtime Messaging and Sending images
-Deleting Posts
-Profile Pages
-Change profile picture
-Change username
-Follow / Unfollow Users
-Change image view from grid layout to feed layout
+-Custom photo feed
+-Post photo posts from camera or gallery
+-Like posts
+-Comment on posts
+-View all comments on a post
+-Search for users
+-Realtime Messaging and Sending images
+-Deleting Posts
+-Profile Pages
+-Change profile picture
+-Change username
+-Follow / Unfollow Users
+-Change image view from grid layout to feed layout
+-Chat 
 
 
 
